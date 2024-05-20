@@ -6,7 +6,7 @@ A repo collecting information about anime games made with Unity.
 
 ## Games
 
-| Name | Unity Version | Encrypted | Use Lua | More Info |
+| Name | Unity Version |Assets Encrypted | Use Lua | More Info |
 |------|---------------|-----------|---------|-----------|
 | 碧蓝航线(Azur Lane) | 2020.3.48f1 | | toLua | [more](Info/AzurLane/AzurLane.md) |
 | Alterna | 2019.4.35f1 | | | |
@@ -18,3 +18,7 @@ A repo collecting information about anime games made with Unity.
 | Memento Mori | 2021.3.10f1 | | | |
 | 闻姬起舞 | 2021.3.31f1 | | XLua | [more](Info/WenJiQiWu/WenJiQiWu.md) |
 | 云图计划 | 2018.4.36f1 | [UnityCN](Info/UnityCN/UnityCN.md) | XLua |
+| 忘却前夜(Morimens) | 2019.4.30f1 | | XLua | [more](Info/Morimens/Morimens.md) |
+
+备注：
+- Assets Encrypted只表示脚本以外的资产加密情况，并不是上表中的每一个游戏我都研究过lua脚本的情况。
