@@ -6,11 +6,11 @@ A repo collecting information about anime games made with Unity.
 
 ## Games
 
-| Name | Unity Version |Assets Encrypted | Use Lua | so protect | More Info |
+| Name | Unity Version |Assets tprt | Use Lua | so protect | More Info |
 |------|---------------|-----------------|---------|------------|-----------|
 | 碧蓝航线(Azur Lane) | 2020.3.48f1 | | toLua | | [more](Info/AzurLane/AzurLane.md) |
 | Alterna | 2019.4.35f1 | | | | |
-| 百分之一 | 2019.4.40f1c1 | | not but use DB store assets | | [more](Info/OnePercent/OnePercent.md) |
+| 百分之一 | 2019.4.40f1c1 | no encryption but use DB store assets | | | [more](Info/OnePercent/OnePercent.md) |
 | 交错战线(CrossCore) | 2019.4.40f1 | FakeHeader | XLua | | [more](Info/CrossCore/CrossCore.md) |
 | 苍雾残响 | 2020.3.7f1 | | XLua | |
 | 绯染天空(Heaven Burns Red) | 2020.3.15f2 | CRC校验 | XLua | tprt(国服) | [more](Info/HeavenBurnsRed/HeavenBurnsRed.md) |
