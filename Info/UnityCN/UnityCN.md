@@ -26,6 +26,10 @@ UnityCN是一种Unity中国官方内置于中国特供版中的加密方式(虽�
 
 实际上，使用[UnityCN-Helper](https://github.com/AXiX-official/UnityCN-Helper)导出的不加密文件在UABEA修改后就可以直接丢回游戏了，似乎对于UnityCN加密来讲，不加密的文件也是能正常读取的。当然如果没能正常读取可以重新加密试试。
 
+### UABEA
+
+在这个编辑的时间点(2024/5/25)，[UABEA](https://github.com/nesrak1/UABEA)的最新Release是[seventh release](https://github.com/nesrak1/UABEA/releases/tag/v7)，作者在重写UABEA，也就是[UABEANext](https://github.com/nesrak1/UABEANext)。按作者原话是不会考虑对UnityCN Encryption的支持，因为他从来没遇到过(哈哈)，所以我fork了一个支持UnityCN Encryption的[UABEA](https://github.com/AXiX-official/UABEA)版本。
+
 ## 一些补充
 
 根据我在网上看到的信息，UnityCN要求数据是LZ4压缩的，但是实际上会出现某些block的压缩类型为None。我询问了一些人，他们告诉我这是Unity Vanilad的处理，如果lz4压缩后的数据比原始数据大，Unity会选择不压缩。
