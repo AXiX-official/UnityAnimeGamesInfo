@@ -1,27 +1,13 @@
 # 雷索纳斯(Resournance)
 
-雷索纳斯的问题比较复杂？大概。
-
 ## UnityCN
 
 首先，什么是UnityCN加密？请参看本仓库的[UnityCN](../UnityCN/UnityCN.md)页面。
 
-## 第二关？
+## XLua
 
-在解决了UnityCN的问题成功提取出未加密的文件并且修改了texture重新导入游戏的时候，你会发现遇到了新的麻烦，似乎游戏不能正确的读取文件？
-
-难道是UnityCN的问题？
-
-不，虽然这样说很不负责任，但是问题出在你用来导入texture的工具上(UnityPy或者UABEA或者其他什么工具)。
-
-对于Texture这样的大文件，元数据之外的图片内容数据在ab包中是放在`.resS`部分中的。Unity有两种方法来访问这块数据，一种是读取ab包的时候从元数据直接加载，另一种是动态加载的时候根据索引从`.resS`中读取(个人理解，可能会有出入)。
-
-而UnityPy和UABEA对`.resS`部分的修改都会破坏这个索引，而雷索纳斯又恰好使用了这种动态加载的方式，所以你会发现游戏无法正确读取texture。
-
-我询问过UABEA的作者，按他的意思至少短时间内不会看到这个问题的解决。
-
-不过，这并不代表没有解决的办法(前提是你修改的图片是same size，不同大小的我没尝试过，理论上应该可以，但是比较麻烦)。
-
-可以结合[修改雷索纳斯的asset文件](https://blog.axix.top/index.php/2024/03/12/88/)来看。前面提到图片的内容是存储在`.resS`部分的，我们可以不使用UABEA或者UnityPy来修改这部分，不过得先导出未压缩的文件，然后参考文章的方法得到编码后的Texture数据直接对`.resS`部分进行替换。
-
-本来是写了一个差不多能用的脚本的，但是因为似乎没什么人做雷索纳斯的魔改所以就摆了。如果你有需求可以在上面的Blog下留言或者直接在这个仓库提issue。
+如果你要用[unluac](https://sourceforge.net/projects/unluac/)来反编译xlua的luac文件，可以考虑使用这个[脚本](fixlua.py)修复文件头。
+```shell
+python fixlua.py PATH/TO/LUAC/FLOAD PATH/TO/OUTPUT/FLOAD PATH/TO/unluac.jar
+```
+当然你也可以直接尝试其他针对xlua的反编译工具。
