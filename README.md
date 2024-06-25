@@ -17,7 +17,7 @@ A repo collecting information about anime games made with Unity.
 | 雷索纳斯(Resournance) | 2019.4.40f1c1 | [UnityCN](Info/UnityCN/UnityCN.md) | XLua | | [more](Info/Resournance/Resournance.md) |
 | Memento Mori | 2021.3.10f1 | | | | |
 | 闻姬起舞 | 2021.3.31f1 | | XLua | | [more](Info/WenJiQiWu/WenJiQiWu.md) |
-| 云图计划 | 2018.4.36f1 | [UnityCN](Info/UnityCN/UnityCN.md) | XLua | tprt | |
+| 云图计划(Neural Cloud CN) | 2018.4.36f1 | [UnityCN](Info/UnityCN/UnityCN.md) | XLua | tprt | |
 | 忘却前夜(Morimens) | 2019.4.30f1 | | XLua | | [more](Info/Morimens/Morimens.md) |
 | 环行旅舍(Kleins) | 2020.3.47f1 | FakeHeader | toLua | | [more](Info/Kleins/Kleins.md) |
 | 战双帕弥什(Punishing Gray Raven) | 2018.4.30f1 | [UnityCN](Info/UnityCN/UnityCN.md) | XLua | tprt(安卓) | |
