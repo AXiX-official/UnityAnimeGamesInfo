@@ -6,7 +6,7 @@ A repo collecting information about anime games made with Unity.
 
 ## Games
 
-| Name | Unity Version |Assets tprt | Use Lua | so protect | More Info |
+| Name | Unity Version |Assets Encrypted | Use Lua | so protect | More Info |
 |------|---------------|-----------------|---------|------------|-----------|
 | 碧蓝航线(Azur Lane) | 2020.3.48f1 | | toLua | | [more](Info/AzurLane/AzurLane.md) |
 | Alterna | 2019.4.35f1 | | | | |
