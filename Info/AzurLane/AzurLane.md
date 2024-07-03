@@ -8,6 +8,12 @@
 
 更多细节可以参考这篇Blog[碧蓝航线资源的直链下载](https://blog.axix.top/index.php/2023/12/15/14/)和项目源码。
 
+### Bilibili服务器的Hash文件
+
+[AzurLaneHashFiles](https://github.com/AXiX-official/AzurLaneHashFiles)
+
+这个仓库会自动更新Bilibili服务器的Hash文件，可以用于下载Bilibili服务器的资源。
+
 ## 关于旧版本MOD迁移到新版本
 
 图片可以直接用UABEA重新导入，或者UnityPY写个脚本批量
