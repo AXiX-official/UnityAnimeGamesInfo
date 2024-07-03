@@ -22,6 +22,7 @@ A repo collecting information about anime games made with Unity.
 | 环行旅舍(Kleins) | 2020.3.47f1 | FakeHeader | toLua | | [more](Info/Kleins/Kleins.md) |
 | 战双帕弥什(Punishing Gray Raven) | 2018.4.30f1 | [UnityCN](Info/UnityCN/UnityCN.md) | XLua | tprt(安卓) | |
 | 萬源聖魔錄(Orisries) | 2022.3.32f1 | AES&抹去版本 | | | [more](Info/Orisries/Orisries.md) |
+| 吟游战记 | 2022.3.6f1 | FakeHeader | toLua | | |
 
 备注：
 - Assets Encrypted只表示脚本以外的资产加密情况，并不是上表中的每一个游戏我都研究过lua脚本的情况。
