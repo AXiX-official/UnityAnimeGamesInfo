@@ -6,8 +6,8 @@ A repo collecting information about anime games made with Unity.
 
 ## Games
 
-| Name | Unity Version |Assets Encrypted | Use Lua | so protect | More Info |
-|------|---------------|-----------------|---------|------------|-----------|
+| Name | Unity Version | Assets Encryption Method | Use Lua | so protect | More Info |
+|------|---------------|--------------------------|---------|------------|-----------|
 | 碧蓝航线(Azur Lane) | 2020.3.48f1 | | toLua | | [more](Info/AzurLane/AzurLane.md) |
 | Alterna | 2019.4.35f1 | | | | |
 | 百分之一 | 2019.4.40f1c1 | no encryption but use DB store assets | | | [more](Info/OnePercent/OnePercent.md) |
@@ -24,7 +24,7 @@ A repo collecting information about anime games made with Unity.
 | 萬源聖魔錄(Orisries) | 2022.3.32f1 | AES&抹去版本 | | | [more](Info/Orisries/Orisries.md) |
 | 吟游战记 | 2022.3.6f1 | FakeHeader | toLua | | |
 | 超次元女神 | 2021.3.5f1 | 抹去版本 | XLua(luac 5.4) | | |
-
+| 锚点降临(Anchor Panic) | 2021.3.31f1 | FakeHeader | XLua | | |
 
 备注：
 - Assets Encrypted只表示脚本以外的资产加密情况，并不是上表中的每一个游戏我都研究过lua脚本的情况。
