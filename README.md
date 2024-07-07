@@ -14,7 +14,7 @@ A repo collecting information about anime games made with Unity.
 | 交错战线(CrossCore) | 2019.4.40f1 | FakeHeader | XLua | | [more](Info/CrossCore/CrossCore.md) |
 | 苍雾残响 | 2020.3.7f1 | | XLua | |
 | 绯染天空(Heaven Burns Red) | 2020.3.15f2 | CRC校验 | XLua | tprt(国服) | [more](Info/HeavenBurnsRed/HeavenBurnsRed.md) |
-| 雷索纳斯(Resournance) | 2019.4.40f1c1 | [UnityCN](Info/UnityCN/UnityCN.md) | XLua | | [more](Info/Resournance/Resournance.md) |
+| 雷索纳斯(Resournance) | 2019.4.40f1c1 | [UnityCN](Info/UnityCN/UnityCN.md) | XLua(luac 5.3) | | [more](Info/Resournance/Resournance.md) |
 | Memento Mori | 2021.3.10f1 | | | | |
 | 闻姬起舞 | 2021.3.31f1 | | XLua | | [more](Info/WenJiQiWu/WenJiQiWu.md) |
 | 云图计划(Neural Cloud CN) | 2018.4.36f1 | [UnityCN](Info/UnityCN/UnityCN.md) | XLua | tprt | |
@@ -23,7 +23,7 @@ A repo collecting information about anime games made with Unity.
 | 战双帕弥什(Punishing Gray Raven) | 2018.4.30f1 | [UnityCN](Info/UnityCN/UnityCN.md) | XLua | tprt(安卓) | |
 | 萬源聖魔錄(Orisries) | 2022.3.32f1 | AES&抹去版本 | | | [more](Info/Orisries/Orisries.md) |
 | 吟游战记 | 2022.3.6f1 | FakeHeader | toLua | | |
-| 超次元女神 | 2021.3.5f1 | 抹去版本 | XLua | | |
+| 超次元女神 | 2021.3.5f1 | 抹去版本 | XLua(luac 5.4) | | |
 
 
 备注：
