@@ -27,9 +27,13 @@ def Decrypt(source, target) :
     if not os.path.exists(target) :
         os.makedirs(target)
     for root, dirs, files in os.walk(source):
+        rel_path = os.path.relpath(root, source)
+        target_dir = os.path.join(target, rel_path)
+        if not os.path.exists(target_dir):
+            os.makedirs(target_dir)
         for file in files:
             source_file = os.path.join(root, file)
-            target_file = os.path.join(target, file)
+            target_file = os.path.join(target_dir, file)
             DecryptFile(source_file, target_file)
 
 
