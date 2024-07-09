@@ -24,6 +24,6 @@ A repo collecting information about anime games made with Unity.
 | [萬源聖魔錄(Orisries)](Info/Orisries/Orisries.md) | 2022.3.32f1 | AES&抹去版本 | | |
 | 吟游战记 | 2022.3.6f1 | FakeHeader | toLua | | |
 | 超次元女神 | 2021.3.5f1 | 抹去版本 | XLua(luac 5.4) | | |
-| [锚点降临(Anchor Panic)](Info/AnchorPanic/AnchorPanic.md) | 2021.3.31f1 | FakeHeader | [XLua](Info/AnchorPanic/AnchorPanic.md#luascripts) | |
+| [锚点降临(Anchor Panic)](Info/AnchorPanic/AnchorPanic.md) | 2021.3.31f1 | FakeHeader | [XLua(lua 5.1)](Info/AnchorPanic/AnchorPanic.md#luascripts) | |
 备注：
 - Assets Encrypted只表示脚本以外的资产加密情况，并不是上表中的每一个游戏我都研究过lua脚本的情况。
