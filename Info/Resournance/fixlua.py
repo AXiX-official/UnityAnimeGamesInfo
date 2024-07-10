@@ -46,17 +46,16 @@ def main(src: str, dst: str):
     failed_files = []
     for root, _, filenames in files:
         for filename in filenames:
-            if filename.endswith('.lua'):
-                src_file = os.path.join(root, filename)
-                dst_file = src_file.replace(src, dst)
-                dst_dir = os.path.dirname(dst_file)
-                if not os.path.exists(dst_dir):
-                    os.makedirs(dst_dir)
-                flag = fix_and_decompile(src_file, dst_file)
-                count += 1
-                print(count)
-                if not flag:
-                    failed_files.append((src_file, dst_file))
+            src_file = os.path.join(root, filename)
+            dst_file = src_file.replace(src, dst)
+            dst_dir = os.path.dirname(dst_file)
+            if not os.path.exists(dst_dir):
+                os.makedirs(dst_dir)
+            flag = fix_and_decompile(src_file, dst_file)
+            count += 1
+            print(count)
+            if not flag:
+                failed_files.append((src_file, dst_file))
     for src_file, dst_file in failed_files:
         print(f'Failed to fix {src_file} to {dst_file}')
 
@@ -66,4 +65,7 @@ if __name__ == '__main__':
     dst = sys.argv[2]
     if len(sys.argv) == 4:
         unluac_path = str(sys.argv[3])
-    main(src, dst)
+    if os.path.isfile(src):
+        fix_and_decompile(src, dst)
+    else:
+        main(src, dst)
