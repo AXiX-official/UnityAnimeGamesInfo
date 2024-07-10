@@ -23,7 +23,7 @@ A repo collecting information about anime games made with Unity.
 | [战双帕弥什(Punishing Gray Raven CN)](Info/PGRCN/PGRCN.md) | 2018.4.30f1 | [UnityCN](Info/UnityCN/UnityCN.md) | XLua | tprt(安卓) | |
 | [萬源聖魔錄(Orisries)](Info/Orisries/Orisries.md) | 2022.3.32f1 | AES&抹去版本 | | |
 | [吟游战记](Info/yyzj/yyzj.md) | 2022.3.6f1 | FakeHeader | toLua | | |
-| 超次元女神 | 2021.3.5f1 | 抹去版本 | XLua(luac 5.4) | | |
+| [超次元女神](Info/ccyns/ccyns.md) | 2021.3.5f1 | 抹去版本 | XLua(luac 5.4) | | |
 | [锚点降临(Anchor Panic)](Info/AnchorPanic/AnchorPanic.md) | 2021.3.31f1 | FakeHeader | [XLua(lua 5.1)](Info/AnchorPanic/AnchorPanic.md#luascripts) | |
 
 备注：
@@ -52,7 +52,7 @@ A repo collecting information about anime games made with Unity.
     <td><a href="Info/yyzj/yyzj.md"><img src="Icons/yyzj.webp" alt="yyzj" width="100%"/></td>
   </tr>
   <tr>
-    <td><img src="Icons/ccyns.webp" alt="ccyns" width="100%"/></td>
+    <td><a href="Info/ccyns/ccyns.md"><img src="Icons/ccyns.webp" alt="ccyns" width="100%"/></td>
     <td><a href="Info/AnchorPanic/AnchorPanic.md"><img src="Icons/AnchorPanic.webp" alt="Anchor Panic" width="100%"/></td>
   </tr>
 </table>
