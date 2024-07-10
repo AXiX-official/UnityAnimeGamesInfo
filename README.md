@@ -11,7 +11,7 @@ A repo collecting information about anime games made with Unity.
 | [碧蓝航线(Azur Lane)](Info/AzurLane/AzurLane.md) | 2020.3.48f1 | | toLua | |
 | [PotK -Alternative Imitation-](Info/AlternativeImitation/AlternativeImitation.md) | 2019.4.35f1 | | | | |
 | [百分之一](Info/OnePercent/OnePercent.md) | 2019.4.40f1c1 | no encryption but use DB store assets | | |
-| [交错战线(CrossCore)](Info/CrossCore/CrossCore.md) | 2019.4.40f1 | FakeHeader | [XLua](Info/CrossCore/CrossCore.md#luascripts) | |
+| [交错战线(CrossCore)](Info/CrossCore/CrossCore.md) | 2019.4.40f1 | [FakeHeader](Info/CrossCore/CrossCore.md#fakeheader) | [XLua](Info/CrossCore/CrossCore.md#luascripts) | |
 | 苍雾残响 | 2020.3.7f1 | | XLua | |
 | [绯染天空(Heaven Burns Red)](Info/HeavenBurnsRed/HeavenBurnsRed.md) | 2020.3.15f2 | CRC校验 | XLua | tprt(国服) |
 | [雷索纳斯(Resournance)](Info/Resournance/Resournance.md) | 2019.4.40f1c1 | [UnityCN](Info/UnityCN/UnityCN.md) | [XLua(luac 5.3)](Info/Resournance/Resournance.md#xlua) | |
