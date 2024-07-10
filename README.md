@@ -6,7 +6,7 @@ A repo collecting information about anime games made with Unity.
 
 ## Games
 
-| Name | Unity Version | Assets Encryption Method | Use Lua | so protect |
+| Name | Unity Version | Assets Encryption Method | Hotfix | so protect |
 |------|---------------|--------------------------|---------|------------|
 | [碧蓝航线(Azur Lane)](Info/AzurLane/AzurLane.md) | 2020.3.48f1 | | toLua | |
 | PotK -Alternative Imitation- | 2019.4.35f1 | | | | |
