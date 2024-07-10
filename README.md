@@ -15,7 +15,7 @@ A repo collecting information about anime games made with Unity.
 | [苍雾残响](Info/cwcx/cwcx.md) | 2020.3.7f1 | | XLua | |
 | [绯染天空(Heaven Burns Red)](Info/HeavenBurnsRed/HeavenBurnsRed.md) | 2020.3.15f2 | CRC校验 | XLua | tprt(国服) |
 | [雷索纳斯(Resournance)](Info/Resournance/Resournance.md) | 2019.4.40f1c1 | [UnityCN](Info/UnityCN/UnityCN.md) | [XLua(luac 5.3)](Info/Resournance/Resournance.md#xlua) | |
-| MementoMori: AFKRPG | 2021.3.10f1 | | | | |
+| [MementoMori: AFKRPG](Info/MementoMori/MementoMori.md) | 2021.3.10f1 | | | | |
 | [闻姬起舞(How To Raise A Harem)](Info/HTRAH/HTRAH.md) | 2021.3.31f1 | | XLua | |
 | [云图计划(Neural Cloud CN)](Info/NeuralCloudCN/NeuralCloudCN.md) | 2018.4.36f1 | [UnityCN](Info/UnityCN/UnityCN.md) | [XLua(luac 5.3)](Info/NeuralCloudCN/NeuralCloudCN.md#xlua)	 | tprt | |
 | [忘却前夜(Morimens)](Info/Morimens/Morimens.md) | 2019.4.30f1 | | XLua | |
@@ -40,7 +40,7 @@ A repo collecting information about anime games made with Unity.
   <tr>
     <td><a href="Info/HeavenBurnsRed/HeavenBurnsRed.md"><img src="Icons/hbr.webp" alt="Heaven Burns Red" width="100%"/></td>
     <td><a href="Info/Resournance/Resournance.md"><img src="Icons/resonance.webp" alt="Resonance" width="100%"/></td>
-    <td><img src="Icons/MementoMori.webp" alt="MementoMori" width="100%"/></td>
+    <td><a href="Info/MementoMori/MementoMori.md"><img src="Icons/MementoMori.webp" alt="MementoMori" width="100%"/></td>
     <td><a href="Info/HTRAH/HTRAH.md"><img src="Icons/HTRAH.webp" alt="How To Raise A Harem" width="100%"/></td>
     <td><a href="Info/NeuralCloudCN/NeuralCloudCN.md"><img src="Icons/NeuralCloud.webp" alt="Neural Cloud" width="100%"/></td>
   </tr>
