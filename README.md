@@ -9,7 +9,7 @@ A repo collecting information about anime games made with Unity.
 | Name | Unity Version | Assets Encryption Method | Hotfix | so protect |
 |------|---------------|--------------------------|---------|------------|
 | [碧蓝航线(Azur Lane)](Info/AzurLane/AzurLane.md) | 2020.3.48f1 | | toLua | |
-| PotK -Alternative Imitation- | 2019.4.35f1 | | | | |
+| [PotK -Alternative Imitation-](Info/AlternativeImitation/AlternativeImitation.md) | 2019.4.35f1 | | | | |
 | [百分之一](Info/OnePercent/OnePercent.md) | 2019.4.40f1c1 | no encryption but use DB store assets | | |
 | [交错战线(CrossCore)](Info/CrossCore/CrossCore.md) | 2019.4.40f1 | FakeHeader | [XLua](Info/CrossCore/CrossCore.md#luascripts) | |
 | 苍雾残响 | 2020.3.7f1 | | XLua | |
@@ -32,7 +32,7 @@ A repo collecting information about anime games made with Unity.
 <table>
   <tr>
     <td><a href="Info/AzurLane/AzurLane.md"><img src="Icons/azurlane.webp" alt="Azur Lane" width="100%"/></td>
-    <td><img src="Icons/AlternativeImitation.webp" alt="Alternative Imitation" width="100%"/></td>
+    <td><a href="Info/AlternativeImitation/AlternativeImitation.md"><img src="Icons/AlternativeImitation.webp" alt="Alternative Imitation" width="100%"/></td>
     <td><a href="Info/OnePercent/OnePercent.md"><img src="Icons/OnePercent.webp" alt="One Percent" width="100%"/></td>
     <td><a href="Info/CrossCore/CrossCore.m"><img src="Icons/crosscore.webp" alt="CrossCore" width="100%"/></td>
     <td><img src="Icons/cwcx.webp" alt="cwcx" width="100%"/></td>
