@@ -1,5 +1,16 @@
 # 闻姬起舞(How To Raise A Harem)
 
+## Info
+
+| | |
+| - | - |
+| Unity Version | 2021.3.31f1 |
+| Assets Encrypted | False |
+| Hotfix | XLua |
+| So Protection | |
+
+## About
+
 要不是有人让我看看这个游戏本来是一点兴趣没有的。
 
 ~~大部分数据都在安装包里面，所以说如果没有root设备的话，别折腾魔改了。话说真的有人会想做这个游戏的魔改吗？~~
