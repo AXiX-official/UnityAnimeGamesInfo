@@ -1,5 +1,16 @@
 # 忘却前夜(Morimens)
 
+## Info
+
+| | |
+| - | - |
+| Unity Version | 2019.4.30f1 |
+| Assets Encrypted | False |
+| Hotfix | XLua |
+| So Protection | |
+
+## About
+
 为什么这个没有加密的游戏也能扯出来讲两句呢。
 
 因为沟槽的Unity
