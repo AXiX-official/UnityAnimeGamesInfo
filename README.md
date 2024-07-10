@@ -22,7 +22,7 @@ A repo collecting information about anime games made with Unity.
 | [环行旅舍(Kleins)](Info/Kleins/Kleins.md) | 2020.3.47f1 | FakeHeader | toLua | |
 | [战双帕弥什(Punishing Gray Raven CN)](Info/PGRCN/PGRCN.md) | 2018.4.30f1 | [UnityCN](Info/UnityCN/UnityCN.md) | XLua | tprt(安卓) | |
 | [萬源聖魔錄(Orisries)](Info/Orisries/Orisries.md) | 2022.3.32f1 | AES&抹去版本 | | |
-| 吟游战记 | 2022.3.6f1 | FakeHeader | toLua | | |
+| [吟游战记](Info/yyzj/yyzj.md) | 2022.3.6f1 | FakeHeader | toLua | | |
 | 超次元女神 | 2021.3.5f1 | 抹去版本 | XLua(luac 5.4) | | |
 | [锚点降临(Anchor Panic)](Info/AnchorPanic/AnchorPanic.md) | 2021.3.31f1 | FakeHeader | [XLua(lua 5.1)](Info/AnchorPanic/AnchorPanic.md#luascripts) | |
 
@@ -49,7 +49,7 @@ A repo collecting information about anime games made with Unity.
     <td><a href="Info/Kleins/Kleins.md"><img src="Icons/kleins.webp" alt="Kleins" width="100%"/></td>
     <td><a href="Info/PGRCN/PGRCN.md"><img src="Icons/pgr.webp" alt="Punishing Gray Raven" width="100%"/></td>
     <td><a href="Info/Orisries/Orisries.md"><img src="Icons/Orisries.webp" alt="Orisries" width="100%"/></td>
-    <td><img src="Icons/yyzj.webp" alt="yyzj" width="100%"/></td>
+    <td><a href="Info/yyzj/yyzj.md"><img src="Icons/yyzj.webp" alt="yyzj" width="100%"/></td>
   </tr>
   <tr>
     <td><img src="Icons/ccyns.webp" alt="ccyns" width="100%"/></td>
