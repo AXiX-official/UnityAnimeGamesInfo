@@ -1,5 +1,14 @@
 # 碧蓝航线(Azur Lane)
 
+## Info
+
+| | |
+| - | - |
+| Unity Version | 2020.3.48f1 |
+| Assets Encrypted | False |
+| Hotfix | toLua |
+| So Protection | |
+
 ## 从游戏外下载游戏资产
 
 目前只适用于国内服务器
