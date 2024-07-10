@@ -1,5 +1,14 @@
 # 百分之一(OnePercent)
 
+## Info
+
+| | |
+| - | - |
+| Unity Version | 2019.4.40f1c |
+| Assets Encrypted | False |
+| Hotfix | unknow |
+| So Protection | |
+
 ## DBreeze
 
 百分之一用[DBreeze](https://github.com/hhblaze/DBreeze)来管理所有资产。
