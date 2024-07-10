@@ -12,7 +12,7 @@ A repo collecting information about anime games made with Unity.
 | [PotK -Alternative Imitation-](Info/AlternativeImitation/AlternativeImitation.md) | 2019.4.35f1 | | | | |
 | [百分之一](Info/OnePercent/OnePercent.md) | 2019.4.40f1c1 | no encryption but use DB store assets | | |
 | [交错战线(CrossCore)](Info/CrossCore/CrossCore.md) | 2019.4.40f1 | [FakeHeader](Info/CrossCore/CrossCore.md#fakeheader) | [XLua](Info/CrossCore/CrossCore.md#luascripts) | |
-| 苍雾残响 | 2020.3.7f1 | | XLua | |
+| [苍雾残响](Info/cwcx/cwcx.md) | 2020.3.7f1 | | XLua | |
 | [绯染天空(Heaven Burns Red)](Info/HeavenBurnsRed/HeavenBurnsRed.md) | 2020.3.15f2 | CRC校验 | XLua | tprt(国服) |
 | [雷索纳斯(Resournance)](Info/Resournance/Resournance.md) | 2019.4.40f1c1 | [UnityCN](Info/UnityCN/UnityCN.md) | [XLua(luac 5.3)](Info/Resournance/Resournance.md#xlua) | |
 | MementoMori: AFKRPG | 2021.3.10f1 | | | | |
@@ -35,7 +35,7 @@ A repo collecting information about anime games made with Unity.
     <td><a href="Info/AlternativeImitation/AlternativeImitation.md"><img src="Icons/AlternativeImitation.webp" alt="Alternative Imitation" width="100%"/></td>
     <td><a href="Info/OnePercent/OnePercent.md"><img src="Icons/OnePercent.webp" alt="One Percent" width="100%"/></td>
     <td><a href="Info/CrossCore/CrossCore.m"><img src="Icons/crosscore.webp" alt="CrossCore" width="100%"/></td>
-    <td><img src="Icons/cwcx.webp" alt="cwcx" width="100%"/></td>
+    <td><a href="Info/cwcx/cwcx.md"><img src="Icons/cwcx.webp" alt="cwcx" width="100%"/></td>
   </tr>
   <tr>
     <td><a href="Info/HeavenBurnsRed/HeavenBurnsRed.md"><img src="Icons/hbr.webp" alt="Heaven Burns Red" width="100%"/></td>
