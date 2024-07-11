@@ -11,7 +11,12 @@ def tran(input_path, output_path):
         codes = match.group().split('\\')[1:] 
         byte_values = [int(code) for code in codes]
         byte_sequence = bytes(byte_values)
-        return byte_sequence.decode('utf-8')
+        result = ""
+        try:
+            result = byte_sequence.decode('utf-8')
+        except UnicodeDecodeError:
+            result = match.group()
+        return result
 
     content = pattern.sub(replace_long_match, content)
 
