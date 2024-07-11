@@ -2,29 +2,19 @@ import re
 import os
 
 def tran(input_path, output_path):
-    # 定义匹配转义序列的正则表达式
-    pattern = re.compile(r'\\(\d{3})\\(\d{3})\\(\d{3})')
+    pattern = re.compile(r'(\\(\d{3}))+')
 
-    # 读取输入文件内容
     with open(input_path, 'r', encoding='utf-8') as input_file:
         content = input_file.read()
 
-    # 替换匹配的转义序列为对应的中文字符
-    def replace_match(match):
-        code1 = int(match.group(1))
-        code2 = int(match.group(2))
-        code3 = int(match.group(3))
-        if code1 >= 0xe0 and code1 < 0xf0 and code2 >= 0x80 and code2 <= 0xbf and code3 >= 0x80 and code3 <= 0xbf:
-            # UTF-8编码中，一个中文字符由3个字节表示
-            return bytes([code1, code2, code3]).decode('utf-8')
-        else:
-            # 如果不是中文字符的转义序列，则原样返回
-            return match.group(0)
+    def replace_long_match(match):
+        codes = match.group().split('\\')[1:] 
+        byte_values = [int(code) for code in codes]
+        byte_sequence = bytes(byte_values)
+        return byte_sequence.decode('utf-8')
 
-    # 使用正则表达式替换
-    content = pattern.sub(replace_match, content)
+    content = pattern.sub(replace_long_match, content)
 
-    # 将处理后的内容写入输出文件
     with open(output_path, 'w', encoding='utf-8') as output_file:
         output_file.write(content)
 
