@@ -9,3 +9,9 @@
 ```shell
 python fixLuaS.py input_folder output_folder <unluac_path>
 ```
+
+反编译出来的文件中的中文字符往往是形如`\228\189\160\229\165\189`，可以使用这个脚本来转换为正常的中文字符：[fixLuazh.py](../../Scripts/fixLuazh.py)
+
+```shell
+python fixLuazh.py input_file <output_file>
+```
