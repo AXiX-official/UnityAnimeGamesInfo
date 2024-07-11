@@ -14,10 +14,10 @@ A repo collecting information about anime games made with Unity.
 | [交错战线(CrossCore)](Info/CrossCore/CrossCore.md) | 2019.4.40f1 | [FakeHeader](Info/CrossCore/CrossCore.md#fakeheader) | [XLua](Info/CrossCore/CrossCore.md#luascripts) | |
 | [苍雾残响](Info/cwcx/cwcx.md) | 2020.3.7f1 | | XLua | |
 | [绯染天空(Heaven Burns Red)](Info/HeavenBurnsRed/HeavenBurnsRed.md) | 2020.3.15f2 | CRC校验 | XLua | tprt(国服) |
-| [雷索纳斯(Resournance)](Info/Resournance/Resournance.md) | 2019.4.40f1c1 | [UnityCN](Info/UnityCN/UnityCN.md) | [XLua(luac 5.3)](Info/Resournance/Resournance.md#xlua) | |
+| [雷索纳斯(Resournance)](Info/Resournance/Resournance.md) | 2019.4.40f1c1 | [UnityCN](Info/UnityCN/UnityCN.md) | [XLua(luac 5.3)](Info/XLua/LuaS.md) | |
 | [MementoMori: AFKRPG](Info/MementoMori/MementoMori.md) | 2021.3.10f1 | | | | |
 | [闻姬起舞(How To Raise A Harem)](Info/HTRAH/HTRAH.md) | 2021.3.31f1 | | XLua | |
-| [云图计划(Neural Cloud CN)](Info/NeuralCloudCN/NeuralCloudCN.md) | 2018.4.36f1 | [UnityCN](Info/UnityCN/UnityCN.md) | [XLua(luac 5.3)](Info/NeuralCloudCN/NeuralCloudCN.md#xlua)	 | tprt | |
+| [云图计划(Neural Cloud CN)](Info/NeuralCloudCN/NeuralCloudCN.md) | 2018.4.36f1 | [UnityCN](Info/UnityCN/UnityCN.md) | [XLua(luac 5.3)](Info/XLua/LuaS.md)	 | tprt | |
 | [忘却前夜(Morimens)](Info/Morimens/Morimens.md) | 2019.4.30f1 | | XLua | |
 | [环行旅舍(Kleins)](Info/Kleins/Kleins.md) | 2020.3.47f1 | FakeHeader | toLua | |
 | [战双帕弥什(Punishing Gray Raven CN)](Info/PGRCN/PGRCN.md) | 2018.4.30f1 | [UnityCN](Info/UnityCN/UnityCN.md) | XLua | tprt(安卓) | |

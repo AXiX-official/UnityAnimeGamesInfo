@@ -8,7 +8,7 @@ FIXED_HEAD = (b'\x1B\x4C\x75\x61\x53\x00\x19\x93\x0D\x0A\x1A\x0A\x04\x04\x04\x08
 unluac_path = "unluac.jar"
 
 
-def fixlua(src: str, dst: str):
+def fixFile(src: str, dst: str) -> str:
     '''
     修复luac文件的文件头
     '''
@@ -17,33 +17,11 @@ def fixlua(src: str, dst: str):
     data = FIXED_HEAD + data[HEAD_LEN:]
     with open(dst, 'wb') as f:
         f.write(data)
+    return dst
 
-
-def decompile(src: str, dst: str) -> bool:
-    '''
-    使用unluac.jar解密luac文件
-    '''
-    command = f'java -jar {unluac_path} {src} > {dst}'
-    result = subprocess.run(command, shell=True)
-    if result.returncode == 0:
-        return True
-    else:
-        return False
-
-
-def fix_and_decompile(src: str, dst: str) -> bool:
-    tmp = dst + '.tmp'
-    fixlua(src, tmp)
-    flag = decompile(tmp, dst)
-    if flag:
-        os.remove(tmp)
-    return flag
-
-
-def main(src: str, dst: str):
+def fixDir(src: str, dst: str) -> list:
     files = os.walk(src)
-    count = 0
-    failed_files = []
+    tmp_files = []
     for root, _, filenames in files:
         for filename in filenames:
             src_file = os.path.join(root, filename)
@@ -51,14 +29,20 @@ def main(src: str, dst: str):
             dst_dir = os.path.dirname(dst_file)
             if not os.path.exists(dst_dir):
                 os.makedirs(dst_dir)
-            flag = fix_and_decompile(src_file, dst_file)
-            count += 1
-            print(count)
-            if not flag:
-                failed_files.append((src_file, dst_file))
-    for src_file, dst_file in failed_files:
-        print(f'Failed to fix {src_file} to {dst_file}')
+            tmp_files.append(fixFile(src_file, dst_file))
+    return tmp_files
 
+
+def decompile(src: str, dst: str) -> bool:
+    '''
+    使用unluac.jar解密luac文件
+    '''
+    command = f'java -jar {unluac_path} {src} -o {dst}'
+    result = subprocess.run(command, shell=True)
+    if result.returncode == 0:
+        return True
+    else:
+        return False
 
 if __name__ == '__main__':
     src = sys.argv[1]
@@ -66,6 +50,11 @@ if __name__ == '__main__':
     if len(sys.argv) == 4:
         unluac_path = str(sys.argv[3])
     if os.path.isfile(src):
-        fix_and_decompile(src, dst)
+        tmp = fixFile(src, dst)
+        decompile(tmp, dst)
+        os.remove(tmp)
     else:
-        main(src, dst)
+        os.makedirs(".tmp")
+        tmp_files = fixDir(src, ".tmp")
+        decompile(".tmp", dst)
+        os.system(f'rm -rf .tmp')
