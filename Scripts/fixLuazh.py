@@ -14,7 +14,7 @@ def tran(input_path, output_path):
         code1 = int(match.group(1))
         code2 = int(match.group(2))
         code3 = int(match.group(3))
-        if code1 >= 0xe0 and code1 < 0xef and code2 >= 0x80 and code2 <= 0xbf and code3 >= 0x80 and code3 <= 0xbf:
+        if code1 >= 0xe0 and code1 < 0xf0 and code2 >= 0x80 and code2 <= 0xbf and code3 >= 0x80 and code3 <= 0xbf:
             # UTF-8编码中，一个中文字符由3个字节表示
             return bytes([code1, code2, code3]).decode('utf-8')
         else:
