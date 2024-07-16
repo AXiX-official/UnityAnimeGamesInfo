@@ -1,8 +1,8 @@
 import os
+import shutil
 import subprocess
 import sys
 
-HEAD_LEN = 33
 FIXED_HEAD = (b'\x1B\x4C\x75\x61\x53\x00\x19\x93\x0D\x0A\x1A\x0A\x04\x04\x04\x08'
               b'\x08\x78\x56\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x28\x77\x40\x01')
 unluac_path = "unluac.jar"
@@ -14,7 +14,17 @@ def fixFile(src: str, dst: str):
     '''
     with open(src, 'rb') as f:
         data = f.read()
+    end = data.find(b'\x28\x77\x40\x01')
+    if end == -1:
+        global error_msg
+        error_msg.append(f'Invalid luac file: {src}')
+        global invalid_files
+        invalid_files.append(src)
+        return
+    HEAD_LEN = end + 4
     data = FIXED_HEAD + data[HEAD_LEN:]
+    filename, _ = os.path.splitext(dst)
+    dst = filename + '.lua'
     with open(dst, 'wb') as f:
         f.write(data)
 
@@ -42,8 +52,22 @@ def decompile(src: str, dst: str) -> bool:
         return True
     else:
         return False
+    
+def handle_invalid_files(src: str, dst: str):
+    src_full_path = os.path.abspath(src)
+    dst_full_path = os.path.abspath(dst)
+    global invalid_files
+    for file in invalid_files:
+        fp = os.path.abspath(file)
+        relative_path = os.path.relpath(fp, src_full_path)
+        new_file_path = os.path.join(dst_full_path, relative_path)
+        shutil.copy(fp, new_file_path)
 
 if __name__ == '__main__':
+    global error_msg
+    error_msg = []
+    global invalid_files
+    invalid_files = []
     src = sys.argv[1]
     dst = sys.argv[2]
     if len(sys.argv) == 4:
@@ -57,3 +81,6 @@ if __name__ == '__main__':
         fixDir(src, f'{src}_tmp')
         decompile(f'{src}_tmp', dst)
         os.system(f'rm -rf {src}_tmp')
+    print(f'Finished to decompile: {src} -> {dst} with {len(error_msg)} errors')
+    for msg in error_msg:
+        print(msg)
