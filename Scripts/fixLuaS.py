@@ -2,6 +2,7 @@ import os
 import shutil
 import subprocess
 import sys
+import time
 
 FIXED_HEAD = (b'\x1B\x4C\x75\x61\x53\x00\x19\x93\x0D\x0A\x1A\x0A\x04\x04\x04\x08'
               b'\x08\x78\x56\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x28\x77\x40\x01')
@@ -54,16 +55,13 @@ def decompile(src: str, dst: str) -> bool:
         return False
     
 def handle_invalid_files(src: str, dst: str):
-    src_full_path = os.path.abspath(src)
-    dst_full_path = os.path.abspath(dst)
     global invalid_files
     for file in invalid_files:
-        fp = os.path.abspath(file)
-        relative_path = os.path.relpath(fp, src_full_path)
-        new_file_path = os.path.join(dst_full_path, relative_path)
-        shutil.copy(fp, new_file_path)
+        shutil.copy(file, file.replace(src, dst))
 
 if __name__ == '__main__':
+    start_time = time.time()
+
     global error_msg
     error_msg = []
     global invalid_files
@@ -81,6 +79,8 @@ if __name__ == '__main__':
         fixDir(src, f'{src}_tmp')
         decompile(f'{src}_tmp', dst)
         os.system(f'rm -rf {src}_tmp')
-    print(f'Finished to decompile: {src} -> {dst} with {len(error_msg)} errors')
+    handle_invalid_files(src, dst)
+    end_time = time.time()
+    print(f'Finished to decompile: {src} -> {dst} in {end_time - start_time:.2f}s with {len(error_msg)} errors')
     for msg in error_msg:
         print(msg)
