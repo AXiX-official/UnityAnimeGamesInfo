@@ -4,7 +4,7 @@ import hashlib
 from Crypto.Cipher import DES
 from Crypto.Util.Padding import unpad
 
-mCommonKey = "rfizzapj"
+mCommonKey = "qdiazawh"
 mCommonKey = hashlib.md5(mCommonKey.encode()).hexdigest()
 mCommonKey = mCommonKey[-8:]
 #mDesMKeys = [111, 151, 50, 205, 123, 222, 185, 45]
