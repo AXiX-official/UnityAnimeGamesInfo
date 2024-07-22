@@ -8,3 +8,7 @@
 | Assets Encrypted | False |
 | Hotfix | Xlua |
 | So Protection | |
+
+## Luascripts
+
+解密使用的脚本[decrypt.py](decrypt.py)
