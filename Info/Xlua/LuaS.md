@@ -15,3 +15,8 @@ python fixLuaS.py input_folder output_folder <unluac_path>
 ```shell
 python fixLuazh.py input_file <output_file>
 ```
+
+## 参考
+
+- [某游戏 xLua 逆向笔记](https://blog.berd.moe/archives/xlua-reverse-note/)
+- [XLua源码](https://github.com/Tencent/xLua)
