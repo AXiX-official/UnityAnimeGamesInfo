@@ -28,6 +28,7 @@ A repo collecting information about anime games made with Unity.
 | [艾塔纪元(E.T.E CHRONICLE)](Info/ete/ete.md) | 2019.4.36f1 | FakeHeader | Xlua | |
 | [异尘：达米拉](Info/ycdml/ycdml.md) | 2019.4.38f1c1 | | Xlua | |
 | [星落(Elpis)](Info/Elpis/Elpis.md) | 2021.3.32f1c1 | FakeHeader & [UnityCN](Info/UnityCN/UnityCN.md) | [Xlua(luac 5.4)](Info/Elpis/Elpis.md#luascripts) | to be determined |
+| [拂晓](Info/fx/fx.md) | 2021.3.5f1 | FakeHeader | to be determined | |
 
 备注：
 - Assets Encrypted只表示脚本以外的资产加密情况，并不是上表中的每一个游戏我都研究过lua脚本的情况。
@@ -63,6 +64,7 @@ A repo collecting information about anime games made with Unity.
   </tr>
   <tr>
     <td><a href="Info/ycdml/ycdml.md"><img src="Icons/ycdml.webp" alt="ycdml" width="100%"/></td>
-    <td><a href="Info/Elpis/ycElpisdml.md"><img src="Icons/Elpis.webp" alt="Elpis" width="100%"/></td>
+    <td><a href="Info/Elpis/Elpisd.md"><img src="Icons/Elpis.webp" alt="Elpis" width="100%"/></td>
+    <td><a href="Info/fx/fx.md"><img src="Icons/fx.webp" alt="fx" width="100%"/></td>
   </tr>
 </table>
