@@ -30,6 +30,7 @@ A repo collecting information about anime games made with Unity.
 | [星落(Elpis)](Info/Elpis/Elpis.md) | 2021.3.32f1c1 | FakeHeader & [UnityCN](Info/UnityCN/UnityCN.md) | [Xlua(luac 5.4)](Info/Elpis/Elpis.md#luascripts) | to be determined |
 | [拂晓](Info/fx/fx.md) | 2021.3.5f1 | FakeHeader | to be determined | |
 | [BanG Dream!](Info/bangdream/bangdream.md) | 2021.3.36f1c1 | 抹去版本 | to be determined | |
+| [异色边缘](Info/ysby/ysby.md) | 2021.3.32f1c1 | | HybridCLR | |
 
 备注：
 - Assets Encrypted只表示脚本以外的资产加密情况，并不是上表中的每一个游戏我都研究过lua脚本的情况。
@@ -68,5 +69,6 @@ A repo collecting information about anime games made with Unity.
     <td><a href="Info/Elpis/Elpisd.md"><img src="Icons/Elpis.webp" alt="Elpis" width="100%"/></td>
     <td><a href="Info/fx/fx.md"><img src="Icons/fx.webp" alt="fx" width="100%"/></td>
     <td><a href="Info/bangdream/bangdream.md"><img src="Icons/bangdream.webp" alt="BanG Dream!" width="100%"/></td>
+    <td><a href="Info/ysby/ysby.md"><img src="Icons/ysby.webp" alt="异色边缘" width="100%"/></td>
   </tr>
 </table>
