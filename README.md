@@ -31,6 +31,7 @@ A repo collecting information about anime games made with Unity.
 | [拂晓](Info/fx/fx.md) | 2021.3.5f1 | FakeHeader | to be determined | |
 | [BanG Dream!](Info/bangdream/bangdream.md) | 2021.3.36f1c1 | 抹去版本 | to be determined | |
 | [异色边缘](Info/ysby/ysby.md) | 2021.3.32f1c1 | | HybridCLR | |
+| [少女前线2:追放](Info/GF2/GF2.md) | 2019.4.29f1 | 抹去版本 | HybridCLR | |
 
 备注：
 - Assets Encrypted只表示脚本以外的资产加密情况，并不是上表中的每一个游戏我都研究过lua脚本的情况。
@@ -42,33 +43,34 @@ A repo collecting information about anime games made with Unity.
     <td><a href="Info/OnePercent/OnePercent.md"><img src="Icons/OnePercent.webp" alt="One Percent" width="100%"/></td>
     <td><a href="Info/CrossCore/CrossCore.m"><img src="Icons/crosscore.webp" alt="CrossCore" width="100%"/></td>
     <td><a href="Info/cwcx/cwcx.md"><img src="Icons/cwcx.webp" alt="cwcx" width="100%"/></td>
+    <td><a href="Info/HeavenBurnsRed/HeavenBurnsRed.md"><img src="Icons/hbr.webp" alt="Heaven Burns Red" width="100%"/></td>
   </tr>
   <tr>
-    <td><a href="Info/HeavenBurnsRed/HeavenBurnsRed.md"><img src="Icons/hbr.webp" alt="Heaven Burns Red" width="100%"/></td>
     <td><a href="Info/Resournance/Resournance.md"><img src="Icons/resonance.webp" alt="Resonance" width="100%"/></td>
     <td><a href="Info/MementoMori/MementoMori.md"><img src="Icons/MementoMori.webp" alt="MementoMori" width="100%"/></td>
     <td><a href="Info/HTRAH/HTRAH.md"><img src="Icons/HTRAH.webp" alt="How To Raise A Harem" width="100%"/></td>
     <td><a href="Info/NeuralCloudCN/NeuralCloudCN.md"><img src="Icons/NeuralCloud.webp" alt="Neural Cloud" width="100%"/></td>
-  </tr>
-  <tr>
     <td><a href="Info/Morimens/Morimens.md"><img src="Icons/Morimens.webp" alt="Morimens" width="100%"/></td>
     <td><a href="Info/Kleins/Kleins.md"><img src="Icons/kleins.webp" alt="Kleins" width="100%"/></td>
+  </tr>
+  <tr>
     <td><a href="Info/PGRCN/PGRCN.md"><img src="Icons/pgr.webp" alt="Punishing Gray Raven" width="100%"/></td>
     <td><a href="Info/Orisries/Orisries.md"><img src="Icons/Orisries.webp" alt="Orisries" width="100%"/></td>
     <td><a href="Info/yyzj/yyzj.md"><img src="Icons/yyzj.webp" alt="yyzj" width="100%"/></td>
-  </tr>
-  <tr>
     <td><a href="Info/ccyns/ccyns.md"><img src="Icons/ccyns.webp" alt="ccyns" width="100%"/></td>
     <td><a href="Info/AnchorPanic/AnchorPanic.md"><img src="Icons/AnchorPanic.webp" alt="Anchor Panic" width="100%"/></td>
     <td><a href="Info/syzz/syzz.md"><img src="Icons/syzz.webp" alt="syzz" width="100%"/></td>
-    <td><a href="Info/xj/xj.md"><img src="Icons/xj.webp" alt="xj" width="100%"/></td>
-    <td><a href="Info/ete/ete.md"><img src="Icons/ete.webp" alt="ete" width="100%"/></td>
   </tr>
   <tr>
+    <td><a href="Info/xj/xj.md"><img src="Icons/xj.webp" alt="xj" width="100%"/></td>
+    <td><a href="Info/ete/ete.md"><img src="Icons/ete.webp" alt="ete" width="100%"/></td>
     <td><a href="Info/ycdml/ycdml.md"><img src="Icons/ycdml.webp" alt="ycdml" width="100%"/></td>
     <td><a href="Info/Elpis/Elpisd.md"><img src="Icons/Elpis.webp" alt="Elpis" width="100%"/></td>
     <td><a href="Info/fx/fx.md"><img src="Icons/fx.webp" alt="fx" width="100%"/></td>
     <td><a href="Info/bangdream/bangdream.md"><img src="Icons/bangdream.webp" alt="BanG Dream!" width="100%"/></td>
+  </tr>
+  <tr>
     <td><a href="Info/ysby/ysby.md"><img src="Icons/ysby.webp" alt="异色边缘" width="100%"/></td>
+    <td><a href="Info/GF2/GF2.md"><img src="Icons/GF2.webp" alt="少女前线2:追放" width="100%"/></td>
   </tr>
 </table>
