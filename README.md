@@ -32,6 +32,7 @@ A repo collecting information about anime games made with Unity.
 | [BanG Dream!](Info/bangdream/bangdream.md) | 2021.3.36f1c1 | 抹去版本 | to be determined | |
 | [异色边缘](Info/ysby/ysby.md) | 2021.3.32f1c1 | | HybridCLR | |
 | [少女前线2:追放](Info/GF2/GF2.md) | 2019.4.29f1 | 抹去版本 | HybridCLR | |
+| [终焉誓约](Info/zysy/zysy.md) | 2020.3.47f1 | FakeHeader | toLua | |
 
 备注：
 - Assets Encrypted只表示脚本以外的资产加密情况，并不是上表中的每一个游戏我都研究过lua脚本的情况。
@@ -72,5 +73,6 @@ A repo collecting information about anime games made with Unity.
   <tr>
     <td><a href="Info/ysby/ysby.md"><img src="Icons/ysby.webp" alt="异色边缘" width="100%"/></td>
     <td><a href="Info/GF2/GF2.md"><img src="Icons/GF2.webp" alt="少女前线2:追放" width="100%"/></td>
+    <td><a href="Info/zysy/zysy.md"><img src="Icons/zysy.webp" alt="终焉誓约" width="100%"/></td>
   </tr>
 </table>
