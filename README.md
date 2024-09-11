@@ -31,7 +31,7 @@ A repo collecting information about anime games made with Unity.
 | [拂晓](Info/fx/fx.md) | 2021.3.5f1 | FakeHeader | to be determined | |
 | [BanG Dream!](Info/bangdream/bangdream.md) | 2021.3.36f1c1 | 抹去版本 | to be determined | |
 | [异色边缘](Info/ysby/ysby.md) | 2021.3.32f1c1 | | HybridCLR | |
-| [少女前线2:追放](Info/GF2/GF2.md) | 2019.4.40f1 | 抹去版本 | HybridCLR | |
+| [少女前线2:追放](Info/GF2/GF2.md) | 2019.4.40f1 | [more](Info/GF2/GF2.md#ab文件加密解密) | HybridCLR&Xlua | |
 | [终焉誓约](Info/zysy/zysy.md) | 2020.3.47f1 | FakeHeader | toLua | |
 
 备注：
