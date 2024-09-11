@@ -51,3 +51,29 @@ if __name__ == '__main__':
 
 使用[fixLuaS.py](../../Scripts/fixLuaS.py)的时候会提示`Invalid luac file: ...`，这个文件是lua文件名对照表
 
+一个可能的还原结构脚本：
+
+``` python
+import os
+import sys
+
+if __name__ == '__main__':
+    path = sys.argv[1]
+    index_path = sys.argv[2]
+    with open(f"{path}/{index_path}", 'rb') as f:
+        data = f.read()
+    index = data.split(b'|')
+    for i in range(len(index) - 1):
+        name = index[i].decode().split(',')
+        original_name = name[1]
+        restored_name = name[0].replace('.', os.sep)
+        
+        restored_dir = os.path.join(path, os.path.dirname(restored_name))
+        os.makedirs(restored_dir, exist_ok=True)
+    
+        os.rename(f"{path}/{original_name}.lua", f"{path}/{restored_name}.lua")
+```
+
+```pwsh
+python re.py luas E8E560D16FD9BA015948C92C1E5C159C.bytes
+```
