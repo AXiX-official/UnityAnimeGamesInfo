@@ -48,3 +48,6 @@ if __name__ == '__main__':
 对于PC端，lua文件和热更新的dll一样在`GF2Exilium\GF2 Game\GF2_Exilium_Data\LocalCache\Data\ClientRes_Windows\2.0.2500\A5CFF04BAF8EAC27EF4D4716C075F344`这样的路径下。
 
 每个字节对0xFF异或，然后使用[fixLuaS.py](../../Scripts/fixLuaS.py)来反编译
+
+使用[fixLuaS.py](../../Scripts/fixLuaS.py)的时候会提示`Invalid luac file: ...`，这个文件是lua文件名对照表
+
