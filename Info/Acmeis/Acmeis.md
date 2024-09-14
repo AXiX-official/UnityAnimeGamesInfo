@@ -6,7 +6,7 @@
 | - | - |
 | Unity Version | 2022.3.2t13 |
 | Assets Encrypted | FakeHeader |
-| Hotfix | Xlua |
+| Hotfix | HybridCLR&Xlua |
 | So Protection | |
 
 ## 团结引擎
