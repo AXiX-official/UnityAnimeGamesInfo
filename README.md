@@ -33,7 +33,7 @@ A repo collecting information about anime games made with Unity.
 | [异色边缘](Info/ysby/ysby.md) | 2021.3.32f1c1 | | HybridCLR | |
 | [少女前线2:追放](Info/GF2/GF2.md) | 2019.4.40f1 | [more](Info/GF2/GF2.md#ab文件加密解密) | HybridCLR&Xlua | |
 | [终焉誓约](Info/zysy/zysy.md) | 2020.3.47f1 | FakeHeader | toLua | |
-| [命运圣契(Acmeis)](Info/Acmeis/Acmeis.md) | 2022.3.2t13 | FakeHeader | HybridCLR&Xlua | |
+| [命运圣契(Acmeis)](Info/Acmeis/Acmeis.md) | 2022.3.2t13 | FakeHeader | HybridCLR&Xlua(LuaJIT 2.1.0-beta3) | |
 
 备注：
 - Assets Encrypted只表示脚本以外的资产加密情况，并不是上表中的每一个游戏我都研究过lua脚本的情况。
