@@ -36,6 +36,7 @@ A repo collecting information about anime games made with Unity.
 | [命运圣契(Acmeis)](Info/Acmeis/Acmeis.md) | 2022.3.2t13 | FakeHeader | HybridCLR&Xlua(LuaJIT 2.1.0-beta3) | |
 | [异界事务所(CounterSide)](Info/CounterSide/CounterSide.md) | 2020.3.40f1 | [more](Info/CounterSide/CounterSide.md#assets-encryption) | lua5.4 | |
 | [物华弥新](Info/wuhua/wuhua.md) | 2018.4.36f1 | [more](Info/wuhua/wuhua.md#ab包解密加密) | HybridCLR&Xlua | |
+| [晴空之下](Info/qkzx/qkzx.md) | 2021.3.33f1c1 | FakeHeader | HybridCLR&toLua | |
 
 备注：
 - Assets Encrypted只表示脚本以外的资产加密情况，并不是上表中的每一个游戏我都研究过lua脚本的情况。
@@ -80,5 +81,8 @@ A repo collecting information about anime games made with Unity.
     <td><a href="Info/Acmeis/Acmeis.md"><img src="Icons/Acmeis.webp" alt="命运圣契" width="100%"/></td>
     <td><a href="Info/CounterSide/CounterSide.md"><img src="Icons/CounterSide.webp" alt="异界事务所" width="100%"/></td>
     <td><a href="Info/wuhua/wuhua.md"><img src="Icons/wuhua.webp" alt="物华弥新" width="100%"/></td>
+  </tr>
+  <tr>
+    <td><a href="Info/qkzx/qkzx.md"><img src="Icons/qkzx.webp" alt="晴空之下" width="100%"/></td>
   </tr>
 </table>
