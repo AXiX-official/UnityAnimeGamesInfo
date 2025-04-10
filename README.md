@@ -18,7 +18,7 @@ A repo collecting information about anime games made with Unity.
 | [云图计划(Neural Cloud CN)](Info/NeuralCloudCN/NeuralCloudCN.md) | 2021.3.30f1c1 | FakeHeader | [XLua(luac 5.3)](Info/Xlua/LuaS.md)	 | tprt | |
 | [忘却前夜(Morimens)](Info/Morimens/Morimens.md) | 2019.4.30f1 | | XLua | |
 | [环行旅舍(Kleins)](Info/Kleins/Kleins.md) | 2020.3.47f1 | FakeHeader | toLua | |
-| [战双帕弥什(Punishing Gray Raven CN)](Info/PGRCN/PGRCN.md) | 2018.4.30f1 | [UnityCN](Info/UnityCN/UnityCN.md) | XLua | tprt(安卓) | |
+| [战双帕弥什(Punishing Gray Raven CN)](Info/PGRCN/PGRCN.md) | 2022.3.52f1c1 | [UnityCN](Info/UnityCN/UnityCN.md) | XLua | tprt(安卓) | |
 | [萬源聖魔錄(Orisries)](Info/Orisries/Orisries.md) | 2022.3.32f1 | AES&抹去版本 | | |
 | [吟游战记](Info/yyzj/yyzj.md) | 2022.3.6f1 | FakeHeader | toLua | | |
 | [超次元女神](Info/ccyns/ccyns.md) | 2021.3.5f1 | 抹去版本 | XLua(luac 5.4) | | |
