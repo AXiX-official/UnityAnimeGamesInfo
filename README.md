@@ -37,6 +37,7 @@ A repo collecting information about anime games made with Unity.
 | [异界事务所(CounterSide)](Info/CounterSide/CounterSide.md) | 2020.3.40f1 | [more](Info/CounterSide/CounterSide.md#assets-encryption) | lua5.4 | |
 | [物华弥新](Info/wuhua/wuhua.md) | 2018.4.36f1 | [more](Info/wuhua/wuhua.md#ab包解密加密) | HybridCLR&Xlua | |
 | [晴空之下](Info/qkzx/qkzx.md) | 2021.3.33f1c1 | FakeHeader | HybridCLR&toLua | |
+| [Ergosum](Info/Ergosum/Ergosum.md) | 2022.3.20f1 | | | | |
 
 备注：
 - Assets Encrypted只表示脚本以外的资产加密情况，并不是上表中的每一个游戏我都研究过lua脚本的情况。
@@ -84,5 +85,6 @@ A repo collecting information about anime games made with Unity.
   </tr>
   <tr>
     <td><a href="Info/qkzx/qkzx.md"><img src="Icons/qkzx.webp" alt="晴空之下" width="100%"/></td>
+    <td><a href="Info/Ergosum/Ergosum.md"><img src="Icons/Ergosum.webp" alt="Ergosum" width="100%"/></td>
   </tr>
 </table>
