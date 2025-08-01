@@ -38,6 +38,7 @@ A repo collecting information about anime games made with Unity.
 | [物华弥新](Info/wuhua/wuhua.md) | 2018.4.36f1 | [more](Info/wuhua/wuhua.md#ab包解密加密) | HybridCLR&Xlua | |
 | [晴空之下](Info/qkzx/qkzx.md) | 2021.3.33f1c1 | FakeHeader | HybridCLR&toLua | |
 | [Ergosum](Info/Ergosum/Ergosum.md) | 2022.3.20f1 | | | | |
+| [咏月风雅](Info/yyfy/yyfy.md) | 2019.4.26f1c1 | [more](Info/yyfy/yyfy.md#部分文件加密) | Xlua | | |
 
 备注：
 - Assets Encrypted只表示脚本以外的资产加密情况，并不是上表中的每一个游戏我都研究过lua脚本的情况。
@@ -86,5 +87,6 @@ A repo collecting information about anime games made with Unity.
   <tr>
     <td><a href="Info/qkzx/qkzx.md"><img src="Icons/qkzx.webp" alt="晴空之下" width="100%"/></td>
     <td><a href="Info/Ergosum/Ergosum.md"><img src="Icons/Ergosum.webp" alt="Ergosum" width="100%"/></td>
+    <td><a href="Info/yyfy/yyfy.md"><img src="Icons/yyfy.webp" alt="咏月风雅" width="100%"/></td>
   </tr>
 </table>
