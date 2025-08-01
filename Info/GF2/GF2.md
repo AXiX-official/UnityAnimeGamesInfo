@@ -19,26 +19,48 @@
 
 前0x8000 bytes异或，每个文件的key不同。
 
+#### 更新
+
+在某次版本更新后，我们伟大的羽中为了对抗解包，使用虚拟文件系统，在一个`.bundle`文件中存储了多个BundleFile。
+
 ``` python
 import sys
+import struct
 
 std_header = [0x55, 0x6E, 0x69, 0x74, 0x79, 0x46, 0x53, 0x00, 0x00, 0x00, 0x00, 0x07, 0x35, 0x2E, 0x78, 0x2E]
 
 key = []
+
+def dec(data: bytearray, offset: int) -> int:
+    key = []
+    if (data[offset:offset + 16] != std_header):
+        for i in range(16):
+            key.append(data[offset + i] ^ std_header[i])
+        i = offset
+        while i < offset + 38:
+            data[i] ^= key[(i - offset) % 16]
+            i += 1
+        size_data = data[(offset + 30):(offset + 38)]
+        file_size = struct.unpack(">q", size_data)[0]
+        size = min(file_size, 0x8000)
+        while i < offset + size:
+            data[i] ^= key[(i - offset) % 16]
+            i += 1
+    size_data = data[(offset + 30):(offset + 38)]
+    file_size = struct.unpack(">q", size_data)[0]
+    return offset + file_size
 
 if __name__ == '__main__':
     in_file = sys.argv[1]
     out_file = sys.argv[2]
     with open(in_file, 'rb') as f:
         data = bytearray(f.read())
-    for i in range(16):
-        key.append(data[i] ^ std_header[i])
-    i = 0
-    while i < 0x8000:
-        if i >= len(data):
-            break
-        data[i] ^= key[i % 16]
-        i += 1
+    
+    offset = 0
+    while offset < len(data):
+        offset = dec(data, offset)
+
+
     with open(out_file, 'wb') as f:
         f.write(data)
 ```
