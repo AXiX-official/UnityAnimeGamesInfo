@@ -6,7 +6,7 @@
 | - | - |
 | Unity Version | 2021.3.44f1c1 |
 | Assets Encrypted | xor |
-| Hotfix | |
+| Hotfix | HybridCLR |
 | So Protection | FairGuard |
 
 ## AssetBundle加密

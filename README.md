@@ -40,7 +40,7 @@ A repo collecting information about anime games made with Unity.
 | [Ergosum](Info/Ergosum/Ergosum.md) | 2022.3.20f1 | | | | |
 | [咏月风雅](Info/yyfy/yyfy.md) | 2019.4.26f1c1 | [more](Info/yyfy/yyfy.md#部分文件加密) | Xlua | |
 | [蓝色星原：旅谣](Info/AzurPromilia/AzurPromilia.md) | 2022.3.52f1 | [UnityCN](Info/UnityCN/UnityCN.md) | HybridCLR&Xlua | |
-| [火环](Info/hh/hh.md) | 2021.3.44f1c1 | [xor](Info/hh/hh.md#AssetBundle加密) | | FairGuard |
+| [火环](Info/hh/hh.md) | 2021.3.44f1c1 | [xor](Info/hh/hh.md#AssetBundle加密) | HybridCLR | FairGuard |
 
 备注：
 - Assets Encrypted只表示脚本以外的资产加密情况，并不是上表中的每一个游戏我都研究过lua脚本的情况。
